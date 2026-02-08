@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(246, 205, 212);
+}
+@font-face {
+    font-family: inlove;
+    src: url(HoneyCute.otf);
+}
+h1, h2{
+    font-family: inlove;
+    justify-self: center;
+    color: rgb(112, 63, 88);
+    margin: 0;
+}
+h1{
+    font-size: xxx-large;
+}
+video{
+    object-fit: cover;
+    clip-path: url(#heart-clip);
+    display: block;
+}
+#myVideo{
+    justify-self: center;
+    align-self: center;
+}
